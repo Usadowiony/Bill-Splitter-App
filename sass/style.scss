@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+$backgound-color: #6a00f4;
 
 * {
 	margin: 0;
@@ -41,7 +42,7 @@ body {
 	position: relative;
 	height: 200px;
 	padding-bottom: 30px;
-	background-color: #ff3a3af6;
+	background-color: $backgound-color;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	color: #fff;
@@ -97,7 +98,7 @@ body {
 		margin: 10px auto 20px;
 		width: 45%;
 		padding: 8px;
-		background-color: #ff3a3af6;
+		background-color: $backgound-color;
 		font-family: "Fira Sans", sans-serif;
 		font-size: 16px;
 		letter-spacing: 1px;
@@ -108,8 +109,7 @@ body {
 		transition: 0.2s;
 
 		&:hover {
-			background-color: darken(#ff3a3af6, 4%);
-			box-shadow: 0 0 15px #ff29294f;
+			background-color: lighten($backgound-color, 7%);
 		}
 	}
 
