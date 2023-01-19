@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Bill Splitter</title>
 </head>
@@ -24,9 +23,9 @@
                 <input class="main__options" type="number" id="price">
 
                 <label class="main__label" for="people">Number of people:</label>
-                <input class="main__options" type="number" id="people">
+                <input class="main__options type=" number" id="people">
 
-                <label class="main__label" for="tip">Amount to pay:</label>
+                <label class="main__label" for="tip">Tip:</label>
                 <select class="main__options" id="tip">
                     <option value="0" disabled selected>- choose a tip -</option>
                     <option value="0.05">5%</option>
@@ -37,7 +36,9 @@
 
                 <button class="main__btn">Calculate</button>
                 <p class="main__info main__info--error"></p>
-                <p class="main__info">You should split with your friends for <span class="main__info--span">10</span>zł</p>
+                <p class="main__info main__info--cost">You should split with your friends for
+                    <span class="main__info--span"></span>€
+                </p>
             </main>
         </div>
     </div>

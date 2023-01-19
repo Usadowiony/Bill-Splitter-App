@@ -122,6 +122,10 @@ body {
 			color: rgb(255, 111, 44);
 		}
 
+		&--cost {
+			display: none;
+		}
+
 		&--span {
 			font-weight: bold;
 		}
