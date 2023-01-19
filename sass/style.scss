@@ -31,9 +31,9 @@ body {
 }
 
 .app-conteiner {
-	width: 470px;
-	box-shadow: 0 0 30px #141414ce;
-	border-radius: 10px;
+	width: 450px;
+	box-shadow: 0 0 20px #141414bd;
+	border-radius: 6px;
 	color: #0f0f0f;
 }
 
@@ -42,8 +42,8 @@ body {
 	height: 200px;
 	padding-bottom: 30px;
 	background-color: #ff3a3af6;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 	color: #fff;
 	font-size: 20px;
 
@@ -63,14 +63,67 @@ body {
 		height: 50px;
 		width: 100%;
 		background-color: #fafafa;
-		border-top-left-radius: 40px;
-		border-top-right-radius: 40px;
+		border-top-left-radius: 60px;
+		border-top-right-radius: 60px;
 	}
 }
 
 .main {
-	padding: 0 10px 30px 10px;
+	padding: 0 35px 50px 35px;
 	background-color: #fafafa;
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
+	color: #070707;
+
+	&__label {
+		display: block;
+		margin-bottom: 8px;
+		font-size: 18px;
+	}
+
+	&__options {
+		box-sizing: border-box;
+		margin-bottom: 22px;
+		padding: 6px 10px;
+		width: 100%;
+		background: none;
+		border: 2px solid #b9b9b9;
+		border-radius: 5px;
+		font-family: "Fira Sans", sans-serif;
+	}
+
+	&__btn {
+		display: block;
+		margin: 10px auto 20px;
+		width: 45%;
+		padding: 8px;
+		background-color: #ff3a3af6;
+		font-family: "Fira Sans", sans-serif;
+		font-size: 16px;
+		letter-spacing: 1px;
+		color: #fff;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 0.2s;
+
+		&:hover {
+			background-color: darken(#ff3a3af6, 4%);
+			box-shadow: 0 0 15px #ff29294f;
+		}
+	}
+
+	&__info {
+		margin-top: 30px;
+		text-align: center;
+		font-weight: normal;
+
+		&--error {
+			color: rgb(255, 111, 44);
+		}
+
+		&--span {
+			font-weight: bold;
+		}
+	}
 }
