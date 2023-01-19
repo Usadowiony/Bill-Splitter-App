@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	background-image: url(../img/background.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.github-ico {
+	position: absolute;
+	bottom: 2vh;
+	right: 4vw;
+	color: #ffffffd7;
+	font-size: 40px;
+	text-shadow: 3px 3px 6px #0a0a0aec;
+}
+
+.flex-conteiner {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0f0f0f93;
+}
+
+.app-conteiner {
+	min-height: 600px;
+	width: 470px;
+	background-color: #fff;
+	box-shadow: 0 0 30px #141414ce;
+	border-radius: 8px;
+	color: #0f0f0f;
+}

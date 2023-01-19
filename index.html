@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Drink Search</title>
+</head>
+
+<body>
+    <a class="github-ico" href="https://github.com/Usadowiony" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <div class="flex-conteiner">
+        <div class="app-conteiner">
+            <header>
+                <h1>BillSpliter</h1>
+                <p>Share your bill with your friends!</p>
+            </header>
+            <main>
+                <label for="price">Amount to pay:</label>
+                <input type="number" id="price">
+
+                <label for="people">Amount to pay:</label>
+                <input type="number" id="people">
+
+                <label for="tip">Amount to pay:</label>
+                <select id="tip">
+                    <option value="0" disabled selected>- choose a tip -</option>
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                </select>
+
+                <button class="count">Calculate</button>
+                <p class="error"></p>
+                <p class="cost-info">You should split with your friends for <span class="cost"></span>zł ;)</p>
+            </main>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
