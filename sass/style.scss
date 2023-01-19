@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +10,7 @@ body {
 	background-image: url(../img/background.jpeg);
 	background-size: cover;
 	background-position: center;
+	font-family: "Fira Sans", sans-serif;
 }
 
 .github-ico {
@@ -28,10 +31,46 @@ body {
 }
 
 .app-conteiner {
-	min-height: 600px;
 	width: 470px;
-	background-color: #fff;
 	box-shadow: 0 0 30px #141414ce;
-	border-radius: 8px;
+	border-radius: 10px;
 	color: #0f0f0f;
+}
+
+.header {
+	position: relative;
+	height: 200px;
+	padding-bottom: 30px;
+	background-color: #ff3a3af6;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+
+	//flex
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	&__p {
+		font-size: 16px;
+	}
+
+	&__overlay {
+		position: absolute;
+		bottom: 0;
+		height: 50px;
+		width: 100%;
+		background-color: #fafafa;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+	}
+}
+
+.main {
+	padding: 0 10px 30px 10px;
+	background-color: #fafafa;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
