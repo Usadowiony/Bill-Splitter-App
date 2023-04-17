@@ -8,7 +8,7 @@
     <br />
     ---
     <br />
-    <a href="https://tranquil-pastelito-94b87b.netlify.app/">View Demo</a>
+    <a href="https://tranquil-pastelito-94b87b.netlify.app/" target="_blank">View Demo</a>
   </p>
 
 ## 🧰 Built With
