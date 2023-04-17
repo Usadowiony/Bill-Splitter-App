@@ -21,7 +21,10 @@ btn.addEventListener("click", () => {
 	if (price.value === "" || people.value === "" || tip.value === 0) {
 		info.style.display = "none";
 		error.innerHTML = "Complete all fields!";
-	} else if (people.value === "1") {
+	} else if (price.value < 0 || people.value < 0) {
+		info.style.display = "none";
+		error.innerHTML = "You can't give negative values!";
+	} else if (people.value === "1" || people.value === "0") {
 		info.style.display = "none";
 		error.innerHTML = "You can't split the bill only with yourself!";
 	} else {
